@@ -1,0 +1,219 @@
+* {
+	margin: 0;
+	padding: 0;
+    background: url(images/broder.jpg) at;
+}
+
+body {
+	margin-top: 0px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #fff;
+    background: #524A62 url(../images/real.png) repeat;
+
+}
+
+h1, h2 {
+	text-transform: uppercase;
+}
+
+
+h3 { font-style: italic;
+font-weight: normal;
+font-size: 14pt;
+}
+
+
+
+a {
+	color: #E4C45A;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: none;
+	color:#2a284a;
+}
+
+img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+img.right {
+	float: right;
+	float: 0 0 0 15px;
+}
+
+/* Header */
+
+#header {
+	width: 0px;
+	height: 0px;
+	margin: 0 auto;
+	padding: 0 0 0 0;
+}
+
+#header h1, #header h2 {
+	float: left;
+	font-weight: normal;
+}
+
+#header h1 {
+	padding: 14px 0 0 180px;
+	letter-spacing: 4px;
+	font-size: 30px;
+}
+
+#header h2 {
+	padding: 31px 0 0 10px;
+	letter-spacing: 3px;
+	font-size: 12px;
+}
+
+#header a {
+	text-decoration: none;
+	color: #90210A;
+}
+
+#page {
+	width: 920px;
+	margin: 0 auto;
+
+}
+
+/* Content */
+
+#content {
+	float: right;
+	width: 700px;
+	padding: 20px;
+	text-align: justify;
+}
+
+#content .post {
+width: 650px;
+padding: 10px 20px 0px 30px;
+}
+
+#content .post h2 {
+    margin-top: 0px;
+	margin-bottom: 0.5em;
+	text-transform: none;
+	font-weight: bold;
+	color: #E4C45A;
+	font-size: 26px;
+	font-family: "Times New Roman, Trebuchet MS, Arial, Helvetica, sans-serif";
+
+}
+
+#content .post h3 {
+	margin-bottom: 1em;
+	font-size: 95%;
+}
+
+#content .post h4 {
+	margin: 1em;
+	font-size: 125%;
+}
+#content .post p, #content .post ul, #content .post ol {
+	margin-bottom: 1em;
+	line-height: 1.5em;
+}
+
+#content .post blockquote, #content .post ul, #content .post ol {
+	margin-left: 3em;
+	margin-right: 3em;
+border:1px solid;
+   padding: 3em;
+}
+
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width:150px;
+	height: 482px;
+	margin:0px;
+	padding: 0px 10px 10px 10px;
+	
+
+}
+
+
+.boxed h3 {
+	
+	padding: 170px 0 10px 0;
+	font-size: 92%;
+	color: #fff;
+	text-align: center;
+}
+
+.boxed .list {
+	list-style: none;
+}
+
+.boxed .list li {
+	padding: 10px 0 15px 0;
+}
+
+.boxed .list h3 {
+	font-size: 77%;
+}
+
+#images
+{ margin:0;
+width:180px;}
+
+
+/* Footer */
+
+#footer {
+
+	width: 500px;
+	height: 60px;
+	margin-left: 1px;
+	padding: 0px 0px 0px 0px;
+	font-size: 95%;
+	
+}
+
+#footer p {
+	margin-bottom:200%;
+	line-height: normal;
+	text-align: center;
+	color: #fff;
+	
+	
+	
+}
+
+/* Bottom Menu */
+
+
+#bottom{
+float:center;
+text-align:center;
+	width: 1080px;
+	margin-left: 10px;
+	padding: 0px 0px 0px 0px;
+	font-size: 100%;
+	
+}
+
+
+.menu li {
+	padding: 5px 0;
+	display:inline;
+}
+
+.menu a {
+	text-decoration: none;
+
+}
+
